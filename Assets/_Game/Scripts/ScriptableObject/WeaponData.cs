@@ -11,6 +11,28 @@ public class WeaponData : ScriptableObject
     {
         return weaponItems[(int)weaponType];
     }
+
+    // public WeaponType NextType(WeaponType weaponType)
+    // {
+
+    // }
+
+    // public WeaponType PrevType(WeaponType weaponType)
+    // {
+        
+    // }
+
+    [System.Serializable]
+    public class WeaponItem
+    {
+        public string name;
+        public WeaponType type;
+        public int cost;
+    }
+
+
+
+
 }
 
 

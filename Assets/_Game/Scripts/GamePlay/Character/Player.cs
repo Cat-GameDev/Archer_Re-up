@@ -15,8 +15,9 @@ public class Player : Character
 
     private void Start() 
     {
-        skinWeapon.ChangeWeapon(WeaponType.Bow);
+        skinWeapon.ChangeWeapon(WeaponType.Bow_Normal);
         weapon = skinWeapon.GetWeapon();
+        CreateHealthBar();
     }
 
     void Update()
@@ -40,11 +41,11 @@ public class Player : Character
 
     public override void OnInit()
     {
-        if(LevelManager.Instance.levelIndex == 0)
-        {
-            playerData.playerHealth = playerData.startingHealth;
-            CreateHealthBar();
-        }
+        // if(LevelManager.Instance.levelIndex == 0)
+        // {
+        //     playerData.playerHealth = playerData.startingHealth;
+        //     CreateHealthBar();
+        // }
         levelData = LevelManager.Instance.GetLevelData();
         isMoving  = isAttacking = false; 
         transform.position = levelData.playerPosition;

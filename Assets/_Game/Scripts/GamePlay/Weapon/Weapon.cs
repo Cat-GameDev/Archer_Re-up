@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public class Weapon : GameUnit
 {
     [SerializeField] private Transform bulletSpawnPoint; 
     [SerializeField] private Bullet bulletPrefab; 

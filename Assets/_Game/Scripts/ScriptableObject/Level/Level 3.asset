@@ -20,6 +20,6 @@ MonoBehaviour:
   ExplodeEnemyHealth: 0
   dameExplodeEnemy: 0
   bossEnemyAmount: 1
-  BossEnemyHealth: 1000
-  dameBossEnemy: 50
+  BossEnemyHealth: 800
+  dameBossEnemy: 30
   bossPosition: {x: 1.2, y: 0.5418346, z: 16.2}

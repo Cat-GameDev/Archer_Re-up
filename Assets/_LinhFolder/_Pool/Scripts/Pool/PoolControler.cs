@@ -155,7 +155,11 @@ public enum PoolType
     BossEnemy,
     Arrow,
     HealthBar,
-    CombatText
+    CombatText,
+
+    Bow_Normal,
+    Bow_Fire,
+    Bow_Ice
 }
 
 

@@ -33,7 +33,9 @@ public enum BulletType
 
 public enum WeaponType
 {
-    Bow = 0
+    Bow_Normal = 0,
+    Bow_Fire = PoolType.Bow_Fire,
+    Bow_Ice = PoolType.Bow_Ice
 
 }
 

@@ -24,6 +24,7 @@ public class LevelManager : Singleton<LevelManager>
     public void Start()
     {
         UIManager.Ins.OpenUI<MainMenu>();
+        //UIManager.Ins.OpenUI<UIWeapon>();
     }
 
     private void Update() 
